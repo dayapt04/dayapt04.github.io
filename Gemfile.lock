@@ -62,6 +62,7 @@ GEM
     ffi (1.17.0-x86_64-darwin)
     ffi (1.17.0-x86_64-linux-gnu)
     ffi (1.17.0-x86_64-linux-musl)
+    fiddle (1.1.4)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     google-protobuf (4.28.2)
@@ -193,6 +194,8 @@ GEM
       racc (~> 1.4)
     nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
+    observer (0.1.2)
+    ostruct (0.6.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (6.0.1)
@@ -261,6 +264,7 @@ DEPENDENCIES
   classifier-reborn
   css_parser
   feedjira
+  fiddle
   httparty
   jekyll
   jekyll-archives
@@ -276,9 +280,11 @@ DEPENDENCIES
   jekyll-scholar
   jekyll-sitemap
   jekyll-tabs
-  jekyll-toc
+  jekyll-toc (~> 0.19.0)
   jekyll-twitter-plugin
   jemoji
+  observer
+  ostruct
   unicode_utils
   wdm (>= 0.1.0)
   webrick

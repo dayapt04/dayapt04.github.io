@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 group :jekyll_plugins do
     gem 'wdm', '>= 0.1.0'
+    gem 'observer'
+    gem 'fiddle'
+    gem 'ostruct'
     gem 'classifier-reborn'
     gem 'jekyll'
     gem 'jekyll-archives'
@@ -16,7 +19,7 @@ group :jekyll_plugins do
     gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-tabs'
-    gem 'jekyll-toc'
+    gem 'jekyll-toc', '~> 0.19.0'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'unicode_utils'
